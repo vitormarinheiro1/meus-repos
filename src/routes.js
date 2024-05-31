@@ -8,8 +8,8 @@ export default function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path="/" Component={Main} />
-                <Route exact path="/repositorio/:repositorio" Component={Repositorio} />
+                <Route path="/" element={<Main />} />
+                <Route path="/repositorio/:repositorio" element={<Repositorio />} />
             </Routes>
         </BrowserRouter>
     )
