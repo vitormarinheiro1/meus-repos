@@ -49,7 +49,7 @@ How to start your project
 ```bash
 cd meus-repo
 npm install
-npm run dev
+npm start
 ```
 
 <h3>Documentations that might help</h3>
